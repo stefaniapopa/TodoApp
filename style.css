@@ -1,0 +1,146 @@
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    background: url("pic2.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.main-container {
+    max-width: 500px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.row {
+    display: flex;
+}
+
+.column {
+    padding: 12px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.col-4 {
+    flex: 4;
+}
+
+.col-8 {
+    flex: 8;
+}
+
+.todoList {
+    align-items: center;
+}
+
+.todoList th,
+.todoList td {
+    text-align: left;
+    padding: 8px;
+    border: 1px solid #a47250;
+}
+
+.todoList tr:nth-child(even) {
+    background-color: floralwhite;
+}
+
+th {
+    background-color: #a47250;
+    color: white;
+}
+
+td input {
+    width: 100%;
+    padding: 0px;
+}
+
+.todoList td {
+    border: 1px solid #a47250;
+}
+
+table {
+    border-collapse: collapse;
+    border-radius: 1em;
+    overflow: hidden;
+    margin-top: 10%;
+    padding: 10px;
+}
+
+h1 {
+    font-family: "Dancing Script", sans-serif;
+    font-size: 80px;
+    text-align: center;
+}
+
+#textArea {
+    padding: 12px;
+    font-size: 19px;
+    border: 1px solid #a47250;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    align-self: center;
+}
+
+.dropdown {
+    display: inline-block;
+    padding: 12px;
+    font-size: 16px;
+    border: none;
+    border-radius: 50px;
+    background-color: #a47250;
+    color: white;
+}
+
+.dropdown:hover {
+    background-color: #c38256;
+}
+
+.dateButton {
+    padding: 12px;
+    font-size: 16px;
+    border: none;
+    border-radius: 50px;
+    width: 160px;
+    background-color: #a47250;
+    color: white;
+}
+
+.dateButton:hover,
+#date:hover {
+    background-color: #c38256;
+}
+
+#date {
+    border: none;
+    background-color: #a47250;
+    color: white;
+}
+
+.addButton {
+    padding: 12px;
+    font-size: 16px;
+    border: none;
+    border-radius: 50px;
+    width: 90px;
+    background-color: #a47250;
+    color: white;
+}
+
+.addButton:hover {
+    background-color: #c38256;
+}

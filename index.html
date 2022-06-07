@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Todo App</h1>
+    </header>
+    <div class="main-container">
+        <section class="container todo-form">
+            <div class="row">
+                <div class="column">
+                    <input id="textArea" class="text" type="label" name="textArea">
+                </div>
+            </div>
+            <div class="row">
+                <div class="column col-4">
+                    <select id="status" class="dropdown">
+                        <button class="dropbtn">Status</button>
+                        <div class="dropdown-content">
+                            <option value="done">Done</option>
+                            <option value="inProgress">In Progress</option>
+                            <option value="notStarted">Not Started</option>
+                        </div>
+                    </select>
+                </div>
+                <div class="column col-8">
+                    <button id="date" type="button" class="dateButton"><input id="date" name="date"  type="date"></button>
+                </div>
+            </div>
+            <div class="row">
+                <div class="column">
+                    <button id="addButton" class="addButton">Add</button>
+                </div>
+            </div>
+
+        </section>
+        <section class="container todoList">
+            <div class="row">
+                <table id="list" class="todolist">
+                    <thead>
+                        <th>Task</th>
+                        <th>Status</th>
+                        <th>Date</th>
+                        <th></th>
+                    </thead>
+                    <tbody>
+                    </tbody>
+                </table>
+            </div>
+
+        </section>
+
+    </div>
+
+
+    <script src="app.js"></script>
+</body>
+<footer></footer>
+
+</html>
